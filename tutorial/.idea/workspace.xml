@@ -65,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snippets/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="69" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.8064516" vertical-offset="190" max-vertical-offset="825">
+            <state line="30" column="60" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="825">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -76,10 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="permissions.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snippets/permissions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="41" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snippets/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+            <state line="25" column="25" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6048387" vertical-offset="0" max-vertical-offset="705">
               <folding>
                 <element signature="e#26#61#0" expanded="true" />
               </folding>
@@ -100,9 +109,10 @@
         <option value="$PROJECT_DIR$/tutorial/settings.py" />
         <option value="$PROJECT_DIR$/snippets/models.py" />
         <option value="$PROJECT_DIR$/tutorial/urls.py" />
-        <option value="$PROJECT_DIR$/snippets/views.py" />
         <option value="$PROJECT_DIR$/snippets/urls.py" />
         <option value="$PROJECT_DIR$/snippets/serializers.py" />
+        <option value="$PROJECT_DIR$/snippets/permissions.py" />
+        <option value="$PROJECT_DIR$/snippets/views.py" />
       </list>
     </option>
   </component>
@@ -515,15 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding>
-            <element signature="e#26#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/snippets/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
@@ -544,9 +545,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/snippets/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="69" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.8064516" vertical-offset="190" max-vertical-offset="825">
+        <state line="30" column="60" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="825">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="41" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snippets/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6048387" vertical-offset="0" max-vertical-offset="705">
+          <folding>
+            <element signature="e#26#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

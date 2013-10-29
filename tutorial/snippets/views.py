@@ -5,6 +5,7 @@ from rest_framework import generics
 from django.contrib.auth.models import User
 # who can see what import authentication
 from rest_framework import permissions
+from snippets.permissions import IsOwnerOrReadOnly
 
 class SnippetList(generics.ListCreateAPIView):
     queryset = Snippet.objects.all()
@@ -21,7 +22,8 @@ class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Snippet.objects.all()
     serializer_class = SnippetSerializer
     # who can edit this view or is it read only
-    permission_classes =  (permissions.IsAuthenticatedOrReadOnly,)
+    # added custom permissions class here
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly)
 
     # associates snippets with users
     def pre_save(self, obj):
