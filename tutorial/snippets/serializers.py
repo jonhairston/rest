@@ -15,6 +15,8 @@ class SnippetSerializer(serializers.Serializer):
                                  default='python')
     style = serializers.ChoiceField(choices=STYLE_CHOICES,
                                     default='friendly')
+    # updated this to reflect the snippets association with the users
+    owner = serializers.Field(source='owner.username')
 
     def restore_object(self, attrs, instance=None):
         """
@@ -40,6 +42,9 @@ class UserSerializer(serializers.ModelSerializer):
     snippets = serializers.PrimaryKeyRelatedField(many=True)
 
 
-class Meta:
+    # make sure that you also add the 'owner' to the meta class fields
+    # was wrong here this needs to be a sub class
+    # the meta class gives you options as to what data you want shown
+    class Meta:
         model = User
         fields = ('id', 'username', 'snippets')
