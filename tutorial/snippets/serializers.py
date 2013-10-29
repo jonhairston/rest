@@ -15,8 +15,6 @@ class SnippetSerializer(serializers.Serializer):
     style = serializers.ChoiceField(choices=STYLE_CHOICES,
                                     default='friendly')
 
-
-
     def restore_object(self, attrs, instance=None):
         """
         Create or update a new snippet instance, given a dictionary
