@@ -22,7 +22,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('url', 'username', 'snippets')
 
 
-#the old way 
+#the old way
 #class SnippetSerializer(serializers.Serializer):
 #    pk = serializers.Field()  # Note: 'Field' is an untyped read-only field.
 #    title = serializers.CharField(required=False,
