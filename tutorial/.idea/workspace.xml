@@ -83,21 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/snippets/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="43" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.63709676" vertical-offset="265" max-vertical-offset="1110">
+            <state line="54" column="0" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="915">
               <folding>
-                <element signature="e#26#62#0" expanded="true" />
+                <element signature="e#26#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snippets/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="8" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.19354838" vertical-offset="0" max-vertical-offset="620">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -514,20 +514,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/urls.py">
+    <entry file="file://$PROJECT_DIR$/snippets/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="54" column="0" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="915">
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#26#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/snippets/views.py">
+    <entry file="file://$PROJECT_DIR$/snippets/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.63709676" vertical-offset="265" max-vertical-offset="1110">
+        <state line="8" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.19354838" vertical-offset="0" max-vertical-offset="620">
           <folding>
-            <element signature="e#26#62#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
